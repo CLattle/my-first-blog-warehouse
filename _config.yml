@@ -102,7 +102,9 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo : https://github.com/Clattle/my-first-blog-warehouse.git 
+  branch: gh-pages
 theme_config:
   post:
     code_fold: false
